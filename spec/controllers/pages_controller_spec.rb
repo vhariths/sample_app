@@ -7,6 +7,13 @@ describe PagesController do
       get 'home'
       response.should be_success
     end
+    
+    it "should have a title" do
+      get 'home'
+      response.should have_selector('title','Sample app follow on| Home')
+    end
+      	
+    
   end
 
   describe "GET 'contact'" do
