@@ -112,3 +112,10 @@ a.signup_button {
 	background-color: #990000;
 }
 
+footer{
+	background-color: #ffffff;
+	padding: 5px;
+	display: block;
+	width: 700px;
+	text-align: center;
+}
